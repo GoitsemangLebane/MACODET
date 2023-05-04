@@ -1,0 +1,67 @@
+<style type="text/css">
+body {
+    background-color: #fffff0;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    color: yellowgreen;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: yellowgreen;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.col img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        flex: 100%;
+        padding: 0;
+    }
+}
+
+</style>
